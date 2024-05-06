@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/sensor1"
+        android:icon="@drawable/ic_baseline_sensors_24"
+        android:title="@string/title_sensor1" />
+
+    <item
+        android:id="@+id/sensor2"
+        android:icon="@drawable/ic_baseline_sensors_24"
+        android:title="@string/title_sensor2" />
+
+    <item
+        android:id="@+id/report"
+        android:icon="@drawable/ic_baseline_report_24"
+        android:title="@string/title_Report" />
+
+</menu>

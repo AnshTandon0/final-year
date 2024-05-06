@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/sensor1">
+    <fragment
+        android:id="@+id/sensor1"
+        android:name="com.tryouts.finalyearproject.ui.main.Sensor1Fragment"
+        android:label="@string/title_sensor1"
+        tools:layout="@layout/fragment_sensor1" >
+    </fragment>
+
+    <fragment
+        android:id="@+id/sensor2"
+        android:name="com.tryouts.finalyearproject.ui.main.Sensor2Fragment"
+        android:label="@string/title_sensor2"
+        tools:layout="@layout/fragment_sensor2" >
+    </fragment>
+
+    <fragment
+        android:id="@+id/report"
+        android:name="com.tryouts.finalyearproject.ui.main.ReportFragment"
+        android:label="@string/title_Report"
+        tools:layout="@layout/fragment_report" >
+    </fragment>
+</navigation>

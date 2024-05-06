@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Final Year Project</string>
+    <string name="title_sensor1">Sensor 1</string>
+    <string name="title_sensor2">Sensor 2</string>
+    <string name="title_Report">Report</string>
+    <string name="temperature">Temperature</string>
+    <string name="avg_temperature">Avg Temperature</string>
+    <string name="humidity">Humidity</string>
+    <string name="latency">Latency</string>
+    <string name="attack">Attack</string>
+    <string name="normal">Normal</string>
+</resources>
